@@ -82,22 +82,24 @@ Une fois toutes les erreurs indiquées par `npm run lint` corrigées et le texte
 Le format du message du commit doit être le suivant : `<type>(<scope>): <message>`
 
 Avec `type` :
+
 - `typo` : correction d'une faute d'orthographe
 - `workflow` : modification du workflow de développement / déploiement / build
 - `style` : correction d'une erreur de format (identifiée par `npm run lint` par exemple)
 - `content` : ajout de nouveau contenu ou mise à jour d'un contenu existant
 
 Avec `scope` :
+
 - pour tout sauf `toolchain` :
-    - `docs` : modification de la documention
-    - `blog` : modification de du blog
-    - `home` : modification de la page d'accueil
-    - `privacy` : modification de la page de la politique de condidentialité
-    - `contrib` : modification de la page des contributeurs
+  - `docs` : modification de la documention
+  - `blog` : modification de du blog
+  - `home` : modification de la page d'accueil
+  - `privacy` : modification de la page de la politique de condidentialité
+  - `contrib` : modification de la page des contributeurs
 - pour `toolchain` :
-    - `chore` : mise à jour de dépendances (ou toute autre tâche de corvée)
-    - `feat` : ajout d'une fonctionnalité
-    - `fix` : correction d'une fonctionnalité
+  - `chore` : mise à jour de dépendances (ou toute autre tâche de corvée)
+  - `feat` : ajout d'une fonctionnalité
+  - `fix` : correction d'une fonctionnalité
 
 Tout le message de commit doit être en minuscule (sauf en cas d'initiales, de nom propre, etc ...).
 
