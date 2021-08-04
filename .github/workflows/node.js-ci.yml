@@ -60,6 +60,7 @@ jobs:
         env:
           SSH_KEY: ${{ secrets.DOKKU_SSH_KEY }}
         run: |
+          mkdir -p ~/.ssh
           echo "$SSH_KEY" > ~/.ssh/id_dokku_rsa
 
       - name: Deploy to dokku
