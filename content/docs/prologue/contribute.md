@@ -75,7 +75,7 @@ Le contenu des pages du site se trouve dans le dossier `content`, pour en savoir
 
 Une fois toutes les modifications voulues effectuées, vérifiez que vous n'avez pas d'erreur de format de fichier avec la commande `npm run lint`, cette vérification permet de garder un style cohérent entre tous les fichiers.
 
-Une fois toutes les erreurs indiquées par `npm run lint` corrigées et le texte relu (pour limiter les fautes d'orthographe), il faut juste commit vos changements `git add . & git commit -m "le message de commit"`.
+Une fois toutes les erreurs indiquées par `npm run lint` corrigées et le texte relu (pour limiter les fautes d'orthographe), il faut juste commit vos changements `git add . && git commit -m "le message de commit"`.
 
 #### Format du message de commit
 
