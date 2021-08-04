@@ -56,15 +56,13 @@ jobs:
           name: website
           path: ~/website
       
-      - name: Tar artifact
-        run: |
-          cd ${{ steps.download.outputs.download-path }}
-          tar -cf website.tar .
-
-      - name: Deploy to dokku
+      - name: Setup SSH key
         env:
           SSH_KEY: ${{ secrets.DOKKU_SSH_KEY }}
         run: |
+          echo "$SSH_KEY" > ~/.ssh/id_dokku_rsa
+
+      - name: Deploy to dokku
+        run: |
           cd ${{ steps.download.outputs.download-path }}
-          echo "$SSH_KEY" > id_rsa
-          cat ./website.tar | ssh -i ./id_rsa dokku@igpolytech.fr tar:in handbook
+          tar -c . | ssh -i ~/.ssh/id_dokku_rsa dokku@igpolytech.fr tar:in handbook
