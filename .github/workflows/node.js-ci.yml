@@ -34,7 +34,7 @@ jobs:
       run: npm run build
 
     - name: Upload artifact
-      if: matrix.os === 'ubuntu-latest'
+      if: matrix.os == 'ubuntu-latest'
       uses: actions/upload-artifact@v2
       with:
         name: website
