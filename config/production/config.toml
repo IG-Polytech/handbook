@@ -1,2 +1,2 @@
-baseurl = "http://handbook.igpolytech.fr/"
+baseurl = "/"
 canonifyURLs = true

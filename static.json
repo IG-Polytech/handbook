@@ -1,0 +1,28 @@
+{
+    "root": "public/",
+    "clean_urls": true,
+    "error_page": "404.html",
+    "headers": {
+        "/**": {
+            "Cache-Control": "public, max-age=86400"
+        },
+        "/js/**": {
+            "Cache-Control": "public, max-age=86400, immutable"
+        },
+        "/fonts/**": {
+            "Cache-Control": "public, max-age=86400, immutable"
+        },
+        "/index.html": {
+            "Cache-Control": "public, max-age=3600"
+        },
+        "/index.xml": {
+            "Cache-Control": "public, max-age=3600"
+        },
+        "/site.webmanifest": {
+            "Cache-Control": "public, max-age=3600"
+        },
+        "/sitemap.xml": {
+            "Cache-Control": "public, max-age=3600"
+        }
+    }
+}
