@@ -1,0 +1,74 @@
+# Meta Data for SEO
+
+## Homepage
+title = "IG Handbook"
+titleSeparator = "-"
+titleAddition = "Bien démarrer en IG"
+description = "IG Handbook est un ensemble de ressources qui pourront vous êtres utiles pendant vos 3 années d'informatique et gestion. Vous y trouverez des informations sur les thématiques abordées en cours mais aussi de quoi compléter vos connaissances avec des sujets non vus en cours qui peuvent vous intéresser."
+
+## Open Graph
+images = ["logo.png"]
+ogLocale = "fr_FR"
+domainTLD = "handbook.igpolytech.fr"
+titleHome = "IG Handbook"
+
+## Twitter Cards
+# twitterSite = "@getdoks"
+# twitterCreator = "@henkverlinde"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "IG Handbook"
+schemaAuthor = "Les étudiants d'IG"
+# schemaAuthorTwitter = "https://twitter.com/henkverlinde"
+# schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaAuthorGitHub = "https://github.com/IG-Polytech"
+schemaLocale = "fr-FR"
+schemaLogo = "logo.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "logo.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+# schemaTwitter = "https://twitter.com/getdoks"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/IG-Polytech/handbook"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+footer = "Créer grâce à <a href=\"https://gohugo.io/\">Hugo</a> et <a href=\"https://getdoks.org/\">Doks</a>"
+copyRight = "Copyright (c) 2021-2021 IG Polytech"
+
+# Alert
+alert = false
+alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/IG-Polytech/handbook"
+editPage = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  collapsibleSidebar = false
