@@ -18,7 +18,7 @@
 
 Setup the project in three steps:
 
-### 1. Close the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/IG-Polytech/handbook.git ig-handbook && cd ig-handbook
