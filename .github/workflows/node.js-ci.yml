@@ -56,7 +56,7 @@ jobs:
           name: website
           path: ~/website
       
-      - name: Setup SSH key
+      - name: Setup SSH key and deploy to Dokku
         env:
           SSH_KEY: ${{ secrets.DOKKU_SSH_KEY }}
         run: |
@@ -67,8 +67,5 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan "igpolytech.fr" >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-
-      - name: Deploy to dokku
-        run: |
           cd ${{ steps.download.outputs.download-path }}
           tar -c . | ssh dokku@igpolytech.fr tar:in handbook
