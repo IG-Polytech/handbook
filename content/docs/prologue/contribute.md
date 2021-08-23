@@ -15,7 +15,7 @@ toc: true
 
 ## Pourquoi contribuer ?
 
-Le monde de l'informatique change rapidement, les choses qui étaient vraies hier peuvent ne plus l'être ajourd'hui. Mais il n'y a pas que l'informatique qui change, la formation au seins d'IG change elle aussi chaque année afin de s'adapter au monde du travail, à l'emploi du temps des enseignants-chercheurs, mais aussi aux retours des étudiants vis-à-vis de celle-ci.
+Le monde de l'informatique change rapidement, les choses qui étaient vraies hier peuvent ne plus l'être aujourd'hui. Mais il n'y a pas que l'informatique qui change, la formation au seins d'IG change elle aussi chaque année afin de s'adapter au monde du travail, à l'emploi du temps des enseignants-chercheurs, mais aussi aux retours des étudiants vis-à-vis de celle-ci.
 
 C'est pourquoi le contenu de l'handbook IG peut être moins pertinent d'une année sur l'autre. Il est donc important que chaque année, les étudiants d'IG contribuent à maintenir le contenu de cet handbook à jour.
 
