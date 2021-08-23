@@ -8,6 +8,7 @@ images: []
 ---
 
 Initiateur du projet.
+Promo 2022 - Polytech Montpellier
 
 LinkedIn : [@FlorentHugouvieux](https://www.linkedin.com/in/florent-hugouvieux-806b47207/)<br/>
 Github : [@BrokenSwing](https://github.com/brokenswing)
