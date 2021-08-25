@@ -12,6 +12,9 @@ images: []
 weight: 200
 toc: true
 ---
+
+![npm-logo](npm-logo.svg)
+
 ## Qu'est-ce que npm ?
 
 Npm est le gestionnaire de paquets officiels de Node.js.
