@@ -1,14 +1,24 @@
-# [[docs]]
-#   name = "Introdution"
-#   weight = 10
-#   identifier = "introdution"
-#   url = "/docs/introduction/"
+### Docs menu
 
-# [[docs]]
-#   name = "Contribuer"
-#   weight = 60
-#   identifier = "contribute"
-#   url = "/docs/contribute/"
+[[docs]]
+  name = "Prologue"
+  weight = 10
+  identifier = "prologue"
+  url = "/docs/prologue/"
+
+[[docs]]
+  name = "Technos"
+  weight = 20
+  identifier = "technos"
+  url = "/docs/technos/"
+
+[[docs]]
+  name = "Déploiement"
+  weight = 30
+  identifier = "deploiement"
+  url = "/docs/deploiement/"
+
+### Main menu
 
 [[main]]
   name = "Documentation"
