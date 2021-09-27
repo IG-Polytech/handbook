@@ -19,7 +19,7 @@ contributors: ["Florent Hugouvieux"]
 
 ## Déployer sur Dokku à Polytech
 
-En tant qu'étudiant en informatique et gestion à Polytech Montpellier, vous pouvez avoir accès à une instance de Dokku déployée directement sur les serveurs de Polytech Montpellier.
+En tant qu'étudiant en informatique et gestion à Polytech Montpellier, vous pouvez avoir accès à une instance de Dokku déployée directement sur les serveurs de l'école.
 
 Pour avoir accès à une instance, vous devez [contacter Luca Cimini sur le Mattermost](https://mattermost.polytech.umontpellier.fr/ig/messages/@luca.cimini) et lui envoyer votre **clé publique** SSH afin qu'il puisse l'ajouter à la machine virtuelle correspondant à votre année :
 
@@ -27,7 +27,11 @@ Pour avoir accès à une instance, vous devez [contacter Luca Cimini sur le Matt
 - IG4 : cluster-ig4.igpolytech.fr
 - IG5 : cluster-ig5.igpolytech.fr
 
-Une fois votre clés publique SSH ajoutée sur le cluster correspondant à votre année, vous pouvez accéder à l'instance Dokku par SSH sur ce dernier. Exemple, si je suis en IG3 :
+{{< alert icon="💡" >}}
+Si vous n'avez pas de paire de clé SSH vous pouvez en créer une en suivant les instructions indiquées [ici](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+{{< /alert >}}
+
+Une fois votre clé publique SSH ajoutée sur le cluster correspondant à votre année, vous pouvez accéder à l'instance Dokku par SSH sur ce dernier. Exemple, si je suis en IG3 :
 
 ```txt
 $> ssh dokku@cluster-ig3.igpolytech.fr help
